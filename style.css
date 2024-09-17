@@ -13,18 +13,22 @@ body {
 body {
   background-color: #111;
 }
-#box1 {
-  height: 300px;
-  width: 300px;
-  background-color: crimson;
+#nav {
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 50px;
 }
-#box2 {
-  height: 300px;
-  width: 300px;
-  background-color: lightseagreen;
+#part2 {
+  display: flex;
+  gap: 50px;
 }
-#box3 {
-  height: 300px;
-  width: 300px;
-  background-color: royalblue;
+h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 80px;
+  white-space: nowrap;
 }
