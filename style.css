@@ -9,29 +9,13 @@ html,
 body {
   height: 100%;
   width: 100%;
+  background: #000000;
 }
-body {
-  overflow-x: hidden;
-}
-#page1 {
-  height: 100%;
+#string {
+  height: 200px;
   width: 100%;
-  background-color: #000;
+  /* background-color: red; */
 }
-#page2 {
-  height: 100%;
-  width: 100%;
-  background-color: rgb(139, 208, 231);
-  padding: 5vw 0;
-}
-#page3 {
-  height: 100%;
-  width: 100%;
-  background-color: #000;
-}
-
-#page2 h1 {
-  font-size: 40vw;
-  font-weight: 400;
-  text-transform: uppercase;
+svg {
+  /* background-color: red; */
 }
