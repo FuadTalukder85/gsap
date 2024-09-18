@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: gilroy;
-  color: white;
+  /* color: white; */
 }
 html,
 body {
@@ -11,24 +11,27 @@ body {
   width: 100%;
 }
 body {
-  background-color: #111;
+  overflow-x: hidden;
 }
-#nav {
-  /* background-color: red; */
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 30px 50px;
+#page1 {
+  height: 100%;
+  width: 100%;
+  background-color: #000;
 }
-#part2 {
-  display: flex;
-  gap: 50px;
+#page2 {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(139, 208, 231);
+  padding: 5vw 0;
 }
-h1 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 80px;
-  white-space: nowrap;
+#page3 {
+  height: 100%;
+  width: 100%;
+  background-color: #000;
+}
+
+#page2 h1 {
+  font-size: 40vw;
+  font-weight: 400;
+  text-transform: uppercase;
 }
